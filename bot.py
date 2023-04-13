@@ -70,7 +70,7 @@ def send_OTP(email,OTP):
     server.startt
     OTP =generateOTP(length)
     send_OTP("lear@gmail.com",OTP)                                                                  
-def Transactions():
+def transactions():
     print('HEPII Day Tawedzerwa, how can i be of assistance?')
     print('1.Account Balance Enquiry ')
     print('2.Purchase Airtime ')
@@ -160,7 +160,7 @@ generateOTP()
 
 send_OTP()
 
-Transactions()
+transactions()
 
 number()
 
